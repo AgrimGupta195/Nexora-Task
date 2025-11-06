@@ -5,7 +5,7 @@ A full-stack shopping cart application built for Vibe Commerce screening. This p
 ## 🎥 Demo Video
 
 
-[Watch Demo Video on Drive](https://drive.google.com/file/d/13Gy2CIAK3yOjjONfmuEGE6TMsXa-Aag9/view?usp=drivesdk)
+[Watch Demo Video on YT](https://youtu.be/kxFZJwKr_yc/)
 
 >
 
