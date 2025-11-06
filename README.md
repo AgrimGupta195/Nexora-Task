@@ -5,7 +5,7 @@ A full-stack shopping cart application built for Vibe Commerce screening. This p
 ## 🎥 Demo Video
 
 
-[Watch Demo Video on Loom](https://www.loom.com/share/YOUR_VIDEO_ID)
+[Watch Demo Video on Drive](https://drive.google.com/file/d/13Gy2CIAK3yOjjONfmuEGE6TMsXa-Aag9/view?usp=drivesdk)
 
 >
 
@@ -169,105 +169,3 @@ npm run dev
 
 The frontend will run on `http://localhost:5173`
 
-## 📝 How to Add Screenshots
-
-1. **Take screenshots** of your application:
-   - Home page with products
-   - Cart page with items
-   - Checkout page
-   - Receipt modal
-
-2. **Create a screenshots folder** in your project root:
-   ```bash
-   mkdir screenshots
-   ```
-
-3. **Save your screenshots** with descriptive names:
-   - `home-page.png`
-   - `cart-page.png`
-   - `checkout-page.png`
-   - `receipt-modal.png`
-
-4. **The README is already configured** to display them using the paths above.
-
-## 🎬 How to Add Demo Video
-
-### Option 1: YouTube (Recommended)
-
-1. **Record your demo** (1-2 minutes showing all features)
-2. **Upload to YouTube** and set visibility to **"Unlisted"**
-3. **Get the video ID** from the URL: `https://www.youtube.com/watch?v=VIDEO_ID`
-4. **Replace `VIDEO_ID`** in the README with your actual video ID
-
-### Option 2: Loom
-
-1. **Record your demo** using Loom
-2. **Get the share link** from Loom
-3. **Replace the Loom link** in the README with your actual share URL
-
-### Option 3: Direct Video File
-
-1. **Create a `videos/` folder** in your project root
-2. **Upload your video** (MP4 format recommended)
-3. **Update the README** to link to the video:
-   ```markdown
-   [Watch Demo Video](./videos/demo.mp4)
-   ```
-
-## ✨ Key Features Implementation
-
-### Database Persistence
-- Cart items are stored in MongoDB using session-based tracking
-- Cart persists across page refreshes
-- Automatic cart cleanup after checkout
-
-### Error Handling
-- API error handling with user-friendly messages
-- Network error detection
-- Form validation on checkout
-
-### Responsive Design
-- Mobile-first approach
-- Clean, minimal UI
-- Smooth animations and transitions
-
-## 🔧 Development
-
-### Backend Scripts
-- `npm run seed` - Seed database with mock products
-
-### Frontend Scripts
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-
-## 📝 Notes
-
-- Cart uses session-based storage (cookies) for user identification
-- Products are automatically seeded on first API call if database is empty
-- All cart operations are persisted in MongoDB
-- No authentication required for this mock implementation
-
-## 🎯 Assignment Requirements Checklist
-
-✅ **Backend APIs**
-- ✅ GET /api/products - Returns 8 mock products
-- ✅ POST /api/cart - Add items with productId and qty
-- ✅ DELETE /api/cart/:id - Remove items
-- ✅ GET /api/cart - Get cart with total
-- ✅ POST /api/checkout - Mock receipt with total and timestamp
-
-✅ **Frontend**
-- ✅ Products grid with "Add to Cart" buttons
-- ✅ Cart view with items, quantity, total, remove/update buttons
-- ✅ Checkout form with name/email, receipt modal
-- ✅ Fully responsive design
-
-✅ **Bonus Features**
-- ✅ Database persistence (MongoDB)
-- ✅ Comprehensive error handling
-- ✅ Real-time cart count updates
-
-## 📄 License
-
-This project is created for Vibe Commerce screening assignment.
