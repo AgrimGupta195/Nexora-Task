@@ -1,35 +1,32 @@
-# Vibe Commerce - Mock E-Commerce Shopping Cart
+# Mock E-Commerce Shopping Cart
 
 A full-stack shopping cart application built for Vibe Commerce screening. This project demonstrates a complete e-commerce flow with product listing, cart management, and checkout functionality.
 
 ## 🎥 Demo Video
 
-[![Demo Video](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
 
-**Or use Loom:**
 [Watch Demo Video on Loom](https://www.loom.com/share/YOUR_VIDEO_ID)
 
-> **Note:** Replace `VIDEO_ID` with your actual YouTube video ID, or use the Loom share link. Make sure the video is set to "Unlisted" for YouTube or public for Loom.
+>
 
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](./screenshots/home-page.png)
+![Home Page](./screenshots/HomePage.png)
 *Product grid with add to cart functionality*
 
 ### Cart Page
-![Cart Page](./screenshots/cart-page.png)
+![Cart Page](./screenshots/CartPage.png)
 *Shopping cart with quantity controls and order summary*
 
 ### Checkout Page
-![Checkout Page](./screenshots/checkout-page.png)
+![Checkout Page](./screenshots/CheckOutPage.png)
 *Checkout form with customer information*
 
 ### Receipt Modal
-![Receipt](./screenshots/receipt-modal.png)
+![Receipt](./screenshots/RecieptModal.png)
 *Order confirmation receipt after successful checkout*
 
-> **Note:** Create a `screenshots/` folder in your project root and add your screenshot images there. Use PNG or JPG format.
 
 ## 🚀 Features
 
